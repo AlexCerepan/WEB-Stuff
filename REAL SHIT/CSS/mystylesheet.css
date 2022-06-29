@@ -1,0 +1,63 @@
+/*General changes start*/
+p{
+    font-family: 'Oswald';
+}
+/*General changes end*/
+
+/*nav and header section start*/
+.display-3{
+    font-family: 'smooch' ;
+}
+
+.navbar{
+    border-bottom: 2px solid #CC379B;
+}
+
+.navbar .navbar-brand{
+    color: #CC379B;
+}
+.navbar .navbar-brand:hover{
+    color: white;
+}
+
+li > a:hover{
+    color: #CC379B !important;
+}
+
+.btn-outline-secondary{
+    cursor: pointer;
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #CC379B;
+    color: black;
+} 
+
+#header{
+    background: url('../images/background.jpg') no-repeat; 
+    background-size: cover;
+    height: 100vh;
+}
+
+#header .col{
+    color: white;
+}
+
+#features  i{
+    color:#CC379B;
+    cursor: pointer;
+}
+
+#features h3{
+    font-family: 'Oswald';
+    font-weight: bold;
+}
+
+#features h3:hover{
+    color: #CC379B;
+    cursor: pointer;
+}
+
+/*nav and header section end*/
