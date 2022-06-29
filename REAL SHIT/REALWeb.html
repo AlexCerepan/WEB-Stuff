@@ -17,7 +17,7 @@
         <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-fixed-top ">
             <div class="container-fluid">
                 
-                <a href="#" class="navbar-brand">
+                <a href="#" class="navbar-brand" style="padding-left:20px">
                     <img src="Images/logo.png" alt="" width="40" height="34">
                     TCArt</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,8 +86,41 @@
         </div>
         </section>
 
+        <!--for video-->
+        <section id="video" class="my-5">
+            <div class="container pb-3">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h3>My video</h3>
+                        <p>This is a viedeo i have created</p>
+                        <div class="col-md-6 text-center mx-auto">
+                            <a href="#" class="video" data-bs-target="#videoModal" data-bs-toggle="modal"><i class="fa-solid fa-play fa-4x"></i>
+                            </a>
+                        </div>         
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--modal part-->
+
+        <div id="videoModal" class="modal fade" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" name="button" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <iframe src="https://www.youtube.com/watch?v=45a3uDXXyt8" width="100%" height="400px"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-         
+             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     </body>
 </html>
 
