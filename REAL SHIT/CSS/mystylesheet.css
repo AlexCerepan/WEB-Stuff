@@ -85,3 +85,25 @@ color: #CC379B !important
     color: #CC379B;
 }
 /*video section end*/
+
+/*myArea section start*/
+#aboutMe{
+    background-color: #212529;
+}
+
+.myArea{
+    margin-left: 200px;
+    border-radius: 20%;
+    background-color: #CC379B;
+    color: white;
+}
+
+.theImage{
+    margin-top: 25px;
+    margin-left: -310px !important;
+    position: relative;
+    z-index: 50;
+}
+
+
+/*myArea section end*/
