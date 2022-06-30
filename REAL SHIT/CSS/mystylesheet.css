@@ -108,9 +108,9 @@ color: #CC379B !important
     background-color: #eeeeee;
 }
 
-#aboutMe .col-lg-4{
+/* #aboutMe .col-lg-4{
     padding-left: 160px;
-}
+} */
 
 .card .btn-outline-secondary{
     color: #CC379B;
@@ -129,13 +129,10 @@ color: #CC379B !important
     padding-right: 0;
 }
 
-#galery .container-fluid{
-    padding-left: 315px;
-}
+/* #galery .container-fluid{
+    padding-left: 310px;
+} */
 
-#galery .row{
-    row-gap: 25px !important;
-}
 
 .imageContainer{
     position: relative;
